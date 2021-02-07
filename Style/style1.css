@@ -1,0 +1,101 @@
+#aylana
+{
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+    background:linear-gradient(to right bottom, red,orange,yellow,green,blue,indigo,violet);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#menu
+{
+    display: none;
+}
+#aylana1
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-bottom: 18px solid blue;
+    border-left: 18px solid green;
+    border-top: 18px solid red;
+    border-right: 18px solid pink;
+    animation-name: spin;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes spin {
+    0%{transform: rotateZ(0deg);}
+    100%{transform: rotateZ(720deg);}
+}
+.container-fluid
+{
+    background: linear-gradient(to bottom right, #343a40,#fff);
+}
+.card
+{
+    background-color: rgba(0, 102, 255, 0.2) !important;
+    padding: 0px;
+    margin: 10px;
+    position: absolute; 
+        left:-50%;
+        top: 30%;
+    /* transition: all 2s linear; */
+}
+#asosiy
+{
+    background-color: rgba(0, 102, 255, 0.4) !important;   
+    margin-top: 20px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /* height: 100px; */
+}
+.sonlar
+{
+    margin: 1%;
+    width: 23%;
+    height: 23%;
+    background-color: rgba(0, 102, 255, 0.7) !important;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+    font-weight: bold;
+    padding: 0px;
+    color: rgb(19, 5, 44);
+}
+#winner
+{
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+    background:linear-gradient(to right bottom, red,orange,yellow,green,blue,indigo,violet);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    z-index: 2;   
+}
+#test_asosiy
+{
+    background-color: rgba(0, 102, 255, 0.4) !important;   
+    margin-top: 20px; 
+    font-size: 30px;
+    font-weight: bold;
+
+}
+#test_asosiy input
+{
+    width: 20px;
+    height: 20px;
+    margin-right:10px;
+}
